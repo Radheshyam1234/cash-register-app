@@ -1,0 +1,92 @@
+
+body{
+    background-color: #0984e3;
+}
+.main_div{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.description{
+    color: white;
+    letter-spacing: 1px;
+    font-size: large;
+}
+
+.input_div{
+    background-color:white;
+  
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:3rem;
+}
+.label_input{
+   font-weight: 900;
+    color:indigo;
+    font-size: larger;
+ 
+}
+input{
+    border-radius: 5px;
+    padding:5px;
+    border:2px solid blue;
+}
+button{
+    padding:5px;
+    width:100%;
+    color:white;
+    border:none;
+    letter-spacing: 1px;
+    background-color: rgb(29, 110, 185);
+    height:30px;
+    border-radius: 4px;
+    cursor:pointer;
+    font-size: larger;
+}
+button:hover{
+    background-color: teal;
+}
+
+#output_div{
+    background-color: white;
+    color:red;
+    background-color:white;
+    border:2px solid white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:3rem;
+    min-width:190px;
+    max-height:370px
+   
+}
+
+.footer{
+    background-color: #2C394B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .footer a{
+        height:60px;
+        width:60px;
+        background-color: #f5f6fa;
+        border-radius: 50px;
+        text-align: center;
+        margin:10px;
+        line-height: 80px;
+    }
+    .footer i{
+        font-size: 40px;
+    
+    }
+    
+    
+    
+    
+    
