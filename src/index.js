@@ -59,8 +59,5 @@ else
 
 calculateButton.addEventListener("click", calculate);
 
-<<<<<<< HEAD
 nextButton.addEventListener("click", showCashgivenInput);
-=======
-nextButton.addEventListener("click", showCashgivenInput);
->>>>>>> 76bfc1b22eeaaeeed542cf8158f558574b3f7d50
+
