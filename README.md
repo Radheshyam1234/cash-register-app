@@ -7,7 +7,7 @@ This is a cash register app that tells you that how much money and in how many n
 * 3.CSS
 
 # Description
-* It will ask the user to enter the bill amount and the cash amount given by the customer.
+* It will ask the user to enter the bill amount and then after it will ask for cash amount given by the customer.
 * Then it will tell you the balance amount and how many notes you have to give to the customer.
 
 ## Project Link
