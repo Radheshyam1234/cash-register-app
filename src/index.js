@@ -13,7 +13,11 @@ function calculate() {
   var given = parseInt(cashgiven.value);
   var balance = given - bill;
   console.log(balance);
-
+   
+   if(!bill||!given){
+  output.innerText = "Please enter both the fields";
+ }
+else{
   if (bill == given) {
     output.innerText = "Zero Balance";
   } else if (bill > given) {
@@ -29,7 +33,7 @@ function calculate() {
       }
     });
   
-  }
+  }}
 }
 
 button.addEventListener("click", calculate);
