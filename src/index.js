@@ -12,9 +12,13 @@ function calculate() {
   var bill = parseInt(billAmount.value);
   var given = parseInt(cashgiven.value);
   var balance = given - bill;
-  console.log(balance);
+  
+ if(!bill||!given){
+  output.innerText = "Please enter both the fields";
+ }
 
-  if (bill == given) {
+
+ else {if (bill == given) {
     output.innerText = "Zero Balance";
   } else if (bill > given) {
     output.innerText = "You have not given a sufficient amount!";
@@ -29,7 +33,7 @@ function calculate() {
       }
     });
   
-  }
+  }}
 }
 
 button.addEventListener("click", calculate);
