@@ -50,6 +50,13 @@ button:hover{
     background-color: teal;
 }
 
+#btn-next{
+    display:block
+}
+
+
+
+
 #output_div{
     background-color: white;
     color:red;
@@ -88,5 +95,6 @@ button:hover{
     
     
     
-    
-    
+    .cashgiven_div{
+        display: none;
+    }
